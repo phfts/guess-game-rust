@@ -14,7 +14,7 @@ pub fn run_main_loop(secret_number: i32) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-                println!("Yes! You have entered: {}", number_guess);
+                println!("Yes! You have entered: {number_guess}");
                 break;
             },
         }
